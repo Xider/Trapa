@@ -1,0 +1,422 @@
+/* Add additional stylesheets below
+-------------------------------------------------- */
+/*
+  Trapa theme's style
+*/
+
+
+/* Body and structure
+-------------------------------------------------- */
+body {
+  line-height: 22px;
+  position: relative;
+  padding-top: 20px;
+  font-family:'Open Sans','Microsoft Yahei',微软雅黑
+  background-color: #fff;
+  background-image: url('http://static.duoshuo.com/images/tile-light.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+body, p {
+  font-family: "Microsoft YaHei","STHeiti","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a {
+  color:#555;
+}
+
+a:hover {
+  color:#888;
+  text-decoration: none;
+}
+
+.page-header {
+  padding-bottom: 10px;
+  margin: 8px 0;
+}
+
+.page-header h1 {
+  margin-bottom: 10px;
+}
+
+.page-header h6 {
+  font-weight: normal;
+border-top: 1px solid #DDD;
+border-bottom: 1px solid #DDD;
+padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.post {
+  word-wrap:break-word; 
+  overflow:hidden;
+  margin-bottom:8px;
+}
+
+.entry-content {
+  padding-bottom: 5px;
+padding-top: 10px;
+}
+
+.label a {
+  color:#fff;
+}
+
+#sidebar {
+  margin-top: 18px;
+}
+
+::-webkit-scrollbar-track-piece{background:#f2f2f2}
+::-webkit-scrollbar{width:14px;height:8px}
+::-webkit-scrollbar-thumb{height:80px;background:#555;border:0}
+::-webkit-scrollbar-thumb:hover{background:#000}
+
+.lead {
+	margin: -1em 0 0 .25em;
+font-size: 12px;
+font-weight: lighter;
+margin-top: 1px;
+text-shadow: 0 0 2px rgba(0,0,0,.5);
+color: #888;
+}
+
+/* Comment list styles
+-------------------------------------------------- */
+.comment-list .comment-body {
+  min-height: 20px;
+  padding: 19px;
+  margin: 8px;
+  background-color: #f5f5f5;
+  border: 1px solid #eee;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.comment-list{
+  list-style-type: none;
+}
+
+.comment-list .comment-author {  
+  float:right;
+}
+
+.comment-list .comment-meta {
+    
+}
+
+.comment-list .comment-level-odd {
+  background-color: #ddd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+/* jumbotron */
+.jumbotron{
+	position: relative;
+    top: 40px;
+	padding-bottom: 40px;
+}
+
+.jumbotron a{
+	font-weight: 800;
+}
+
+/* Tweak navbar brand link to be super sleek
+-------------------------------------------------- */
+.navbar .brand {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 20px;
+  float: right;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+}
+.navbar .brand:hover {
+  text-decoration: none;
+  color: #111;
+}
+.navbar .container {
+  width: auto;
+}
+
+.pagination span{
+float: left;
+padding: 0 14px;
+line-height: 34px;
+text-decoration: none;
+border: 1px solid #ddd;
+	border-left-width: 1px;
+	-webkit-border-radius: 3px 0 0 3px;
+-moz-border-radius: 3px 0 0 3px;
+border-radius: 3px 0 0 3px;
+}
+
+
+/* Space out sub-sections more
+-------------------------------------------------- */
+section {
+  padding-top: 60px;
+}
+
+/* Faded out hr */
+hr.soften {
+  height: 1px;
+  margin: 27px 0;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.3), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.3), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.3), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.3), rgba(0,0,0,0));
+  border: 0;
+}
+
+
+
+/* Fixed navbar-fixed-top on scroll, but only for 980px and up (sorry IE!) */
+@media (min-width: 980px) {
+  .navbar-fixed-top .container {
+    width: 940px;
+  }
+}
+
+/* Footer
+-------------------------------------------------- */
+footer {
+  margin-top: 45px;
+  padding: 35px 0 36px;
+  border-top: 1px solid #e5e5e5;
+}
+footer p {
+  text-align:center;
+  margin-bottom: 0;
+  color: #555;
+}
+
+/* Remove bottom margin on example forms in wells */
+form.well {
+  padding: 14px;
+}
+
+/* Tighten up spacing */
+.well hr {
+  margin: 18px 0;
+}
+
+/* Fake the :focus state to demo it */
+.focused {
+  border-color: rgba(82,168,236,.8);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);
+     -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);
+          box-shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);
+  outline: 0;
+}
+
+/* Responsive Docs
+-------------------------------------------------- */
+@media (max-width: 480px) {
+
+  /* Reduce padding above jumbotron */
+  body {
+    padding-top: 10px;
+  }
+
+  /* Change up some type stuff */
+  h2 {
+    margin-top: 27px;
+  }
+  h2 small {
+    display: block;
+    line-height: 18px;
+  }
+  h3 {
+    margin-top: 18px;
+  }
+
+  /* Adjust the jumbotron */
+  .jumbotron h1,
+  .jumbotron p {
+    text-align: center;
+    margin-right: 0;
+  }
+  .jumbotron h1 {
+    font-size: 38px;
+    margin-right: 0;
+  }
+  .jumbotron p {
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  /* Remove any padding from the body */
+  body {
+    padding-top: 15px;
+  }
+
+  /* Unfloat the back to top link in footer */
+  .footer .pull-right {
+    float: none;
+  }
+  .footer p {
+    margin-bottom: 9px;
+  }
+
+}
+
+
+@media (min-width: 480px) and (max-width: 768px) {
+
+  /* Scale down the jumbotron content */
+  .jumbotron h1 {
+    font-size: 45px;
+  }
+  .jumbotron p {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 980px) {
+
+  /* Remove any padding from the body */
+  body {
+    padding-top: 15px;
+  }
+
+  /* Scale down the jumbotron content */
+  .jumbotron h1 {
+    font-size: 54px;
+  }
+
+}
+
+
+@media (max-width: 980px) {
+
+  /* Unfloat brand */
+  .navbar .brand {
+    float: left;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
+
+
+/* LARGE DESKTOP SCREENS */
+@media (min-width: 1210px) {
+
+  /* Update navbar-fixed-top container */
+  .navbar-fixed-top .container {
+    width: 1170px; 
+  }
+
+}
+
+.box {
+padding: 20px;
+background: #fff;
+margin-bottom: 20px;
+box-shadow: rgba(200,200,20);
+box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+-webkit-box-shadow: rgba(200,200,20);
+-khtml-box-shadow: rgba(200,200,200,1) 0 2px 18px;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+}
+.pleft {
+padding: 10px;
+background: #fff;
+margin-top: 15px;
+margin-bottom: 20px;
+box-shadow: rgba(200,200,20);
+box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+-webkit-box-shadow: rgba(200,200,20);
+-khtml-box-shadow: rgba(200,200,200,1) 0 2px 18px;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+}
+.readmore a{
+  background-color: #0074cc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0055cc);
+  background-image: -ms-linear-gradient(top, #0088cc, #0055cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0055cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0055cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0055cc);
+  background-image: linear-gradient(top, #0088cc, #0055cc);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0055cc', GradientType=0);
+  border-color: #0055cc #0055cc #003580;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+  border-color: #c5c5c5;
+  border-color: rgba(0,0,0,0.15) rgba(0,0,0,0.15) rgba(0,0,0,0.25);
+	display: inline-block;
+padding: 4px 14px;
+margin-bottom: 0;
+font-size: 14px;
+line-height: 20px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #bbb;
+border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+border-bottom-color: #a2a2a2;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+	color: #fff;
+	float: right;
+text-decoration: none
+}
+.readmore{padding: 0px 15px 18px}
+.readmore a:hover,.readmore a:active,.readmore a.active,.readmore a.disable{
+	background-color: #0055cc
+}
+#commiting{
+	float: right;
+position: relative;
+top: -10px;
+	display:none
+}
+#error{
+	float:right;
+	position:relative;
+	display:none;
+	top:-10px
+}
+.widget li:before {
+content: "> ";
+font-weight: bold;
+color: #000000;
+}
+.widget ul{
+list-style: none;
+	margin: 10px 0 9px 5px
+}
+.widget p{padding-top: 3px;
+padding-left: 55px;}
