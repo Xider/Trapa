@@ -1,7 +1,7 @@
 Trapa
 =====
 
-Trapa is an emlog theme based on Twitter Bootstrap , which includes AJAX technique to make the user experience better .
+Trapa is an emlog theme based on Twitter Bootstrap , it includes AJAX technique to make the user experience better .
 
 =====
 
